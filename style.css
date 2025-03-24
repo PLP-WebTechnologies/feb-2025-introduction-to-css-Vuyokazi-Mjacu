@@ -1,0 +1,66 @@
+
+
+/* Universal Selector for setting default font and margin for the entire document */
+* {
+    font-family: 'Arial', sans-serif;
+    margin: 10px;
+    padding: 0;
+  }
+  
+  /* Style for the body using ID selector */
+  #main-body {
+    background-image:url('colorful.jpg');  /* image background */
+    color:black;  /* Dark text color for readability */
+    padding: 30px;  /* Padding inside the body */
+  }
+  
+  /* Class selector for headings */
+  .heading {
+    font-size: 2em;  /* Bigger font size for headings */
+    color: #2c3e50;  /* Dark  color */
+    text-align: center;  /* Center align the heading */
+    margin-bottom: 20px;  /* Space below the heading */
+  }
+
+  /* Style for the paragraph under the heading */
+.description {
+    font-size: 1.5em;  /* Slightly larger font for emphasis */
+    color:black;  /* black text */
+    font-weight: bold;
+    font-style: italic;  /* Italicized for personality */
+    margin-bottom: 20px;  /* Space before the image */
+    text-align: center;
+    text-decoration: underline;  /* underline */
+  }
+  
+  /* Class selector for images */
+  .img-style {
+    display: block;  /* Makes image a block element */
+    max-width: 100%;  /* Ensures image doesn't overflow */
+    height: auto;  
+    border: 5px solid burlywood;  /* Border around the image */
+    margin: 0 auto;  /* Centers the image */
+    padding: 10px;  /* Padding inside the border */
+   
+  }
+  
+  /* Style for the footer */
+  footer {
+    background-color: purple;  /* purpl background for footer */
+    color: white;  /* White text */
+    padding: 10px;  /* Padding around the footer */
+    text-align: center;  /* Center align the text */
+    margin-top: 30px;  /* Space above the footer */
+    border-top: 10px solid #ddd;  /* Light border at the top */
+  }
+  
+  /* Footer links */
+  footer a {
+    color: yellowgreen;  /* Yellow color for links */
+    text-decoration: none;  /* No underline */
+  }
+  
+  footer a:hover {
+    text-decoration: underline;  /* Underline link on hover */
+  }
+  
